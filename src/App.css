@@ -1,0 +1,101 @@
+.header {
+  text-align: center;
+  padding: 20px;
+  background-color: #fff; 
+}
+
+.text-container {
+  display: inline-block; 
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px; 
+  flex-wrap: wrap;
+  flex-direction: column; 
+}
+
+.logo {
+  max-width: 100px; 
+  height: auto;
+  margin-right: 15px;
+}
+
+.cafe-name {
+  font-family: 'American Typewriter', serif; 
+  color: #e76f51; 
+  font-size: 3rem; 
+  margin: 0;
+}
+
+.tagline {
+  font-family: 'Bradley Hand', cursive; 
+  color: #2a9d8f; 
+  font-size: 1.5rem; 
+  margin: 0;
+}
+
+.motto {
+  color: #264653; 
+  font-size: 2rem; 
+  font-weight: bold;
+  margin: 20px 0 0; 
+}
+.menu-item {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+}
+
+.menu-item-image {
+  object-fit: cover;
+  border-radius: 8px 0 0 8px; 
+  width: 120px; 
+  height: 120px; 
+}
+
+.menu-item-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+  padding: 10px;
+}
+
+.menu-item-title {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.menu-item-description {
+  font-size: 0.875rem;
+  color: #666;
+  margin: 4px 0;
+}
+
+.menu-item-buy {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%; 
+}
+
+.menu-item-price {
+  font-size: 1rem;
+  color: #333;
+}
+
+.menu-item-button {
+  padding: 8px 16px; 
+  background-color: #007bff; 
+  color: white; 
+  border: none;
+  border-radius: 30px; 
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
