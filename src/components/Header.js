@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <header className="header">
       <div className="header-content">
-      <img src="/images/logo.jpeg" alt="Chef Tanakas Logo" className="logo" />
+      <img src={process.env.PUBLIC_URL + `/images/logo`} alt="Chef Tanakas Logo" className="logo" />
         <div className="text-container">
           <h1 className="cafe-name">Chef Tanakas</h1>
           <p className="tagline">Authentic, Fresh, Delicious Food</p>

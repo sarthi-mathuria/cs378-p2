@@ -3,7 +3,7 @@ import React from 'react';
 const MenuItem = ({ title, description, imageName, price }) => {
   return (
     <div className="menu-item">
-      <img src={`/images/${imageName}`} alt={title} className="menu-item-image" />
+      <img src={process.env.PUBLIC_URL + `/images/${imageName}`} alt={title} className="menu-item-image" />
       <div className="menu-item-details">
         <h3 className="menu-item-title">{title}</h3>
         <p className="menu-item-description">{description}</p>
